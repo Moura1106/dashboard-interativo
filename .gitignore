@@ -1,0 +1,18 @@
+# Ambiente e caches
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Segredos
+.env
+*.key
+
+# Planilhas reais (só a planilha fictícia em exemplo/ vai para o repositório)
+*.xlsx
+*.xls
+!exemplo/lancamentos_demo.xlsx
+~$*
+
+# Saídas geradas a partir de planilhas reais
+dashboard_real*.html
